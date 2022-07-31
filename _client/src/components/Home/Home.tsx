@@ -1,8 +1,8 @@
-import './css/Home.css'
-import Navbar from './Navbar'
-const logo = require('../../assets/images/logo.png')
+import './css/Home.css';
+import Navbar from './Navbar';
+const logo = require('../../assets/images/logo.png');
 
-const Home = () => {
+const Home = (): JSX.Element => {
   return (
     <header id='home'>
         <Navbar/>
@@ -28,4 +28,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

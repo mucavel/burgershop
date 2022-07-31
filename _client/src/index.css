@@ -17,11 +17,13 @@ html{
   /*----------COLORS---------*/
   --bg-color: rgb(255, 255, 255);
   --yellow: rgb(255, 200, 80);
+  --brown: rgb(168, 85, 29);
   --white: rgb(255, 255, 255);
   --red: rgb(255, 0, 0);
   --hover-red:rgb(226, 44, 44);
   --home-links-color: rgb(0, 0, 0);
   --text-color: rgb(0, 0, 0);
+  --fade: rgba(0,0,0,0.5);
 
   /*----------FONTS----------*/
   --h1-h2-h3-font-family: "AlegreyaSC", "Open sans", "Times New Roman", sans-serif;
@@ -37,4 +39,12 @@ h1, h2, h3{
 }
 p,a{
   font-family: var(--text-font-family);
+}
+.h2-subtitle{
+  margin: 3% 0;
+}
+@media screen and (max-width: 700px){
+  .h2-subtitle{
+    margin: 15% 0;
+  }  
 }

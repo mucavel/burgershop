@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./css/Navbar.css";
-import { FaHamburger } from 'react-icons/fa'
+import { FaHamburger } from 'react-icons/fa';
 
-const Navbar = () => {
+const Navbar = (): JSX.Element => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
