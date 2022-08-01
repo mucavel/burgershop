@@ -1,0 +1,37 @@
+.menu{
+    background: var(--yellow);
+}
+.choose{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.choose-card{
+    width: 30%;
+    min-height: 450px;
+    position: relative;
+    text-align: center;
+    margin: 1rem auto 2rem auto ;
+    background: var(--white);
+    /* background: var(--yellow); */
+    border: 1px solid var(--yellow);
+    border-radius: 10px;
+}
+.choose-card img{
+    margin-top: 1rem;
+    width: 80%;
+    height: 80%;
+}
+@media screen and (max-width: 700px) {
+    .menu{
+        width: 100%;
+    }
+    .choose{
+        width: 100%;
+        flex-direction: column;
+    }
+    .choose-card{
+        width: 90%;
+    }
+}

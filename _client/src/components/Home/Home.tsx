@@ -15,8 +15,8 @@ const Home = (): JSX.Element => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         labore obcaecati suscipit dolorum quis minima omnis libero quo aperiam esse.
                     </p>
-                    <button className='home-by-btn'>
-                        <a href="#choose">Comprar</a>
+                    <button className='buy-btn'>
+                        <a href="#menu">Comprar</a>
                     </button>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 #home{
     background-color: var(--yellow);
-    min-height: 98vh;
+    min-height: 100vh;
 }
 .burger-ico{
     font-size: 26pt;
@@ -43,21 +43,6 @@
 .home-logo img{
     width: 80%;
     height: 100%;
-}
-.home-by-btn{
-    border: none;
-    background: var(--red);
-}
-.home-by-btn a{
-    padding: 1rem 4rem;
-    line-height: 50px;
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 11pt;
-}
-.home-by-btn a:hover{
-    background: var(--hover-red);
 }
 
 @media screen and (max-width: 700px){
