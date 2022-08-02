@@ -9,7 +9,7 @@ const Home = (): JSX.Element => {
         <div className="home">
             <div className='home-text'>
                 <div className='home-text-container'>
-                    <h1 className='home-h1'>The Burger Shop</h1>
+                    <h1 className='home-h1' style={{color: "var(--brown)"}}>The Burger Shop</h1>
                     <h2 className='home-h2'>O melhor Humbúrger tu encontras aqui!</h2>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 

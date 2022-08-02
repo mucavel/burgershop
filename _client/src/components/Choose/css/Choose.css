@@ -1,6 +1,6 @@
-.menu{
+/* .menu{
     background: var(--yellow);
-}
+} */
 .choose{
     width: 80%;
     margin: auto;
@@ -9,20 +9,48 @@
 }
 .choose-card{
     width: 30%;
-    min-height: 450px;
-    position: relative;
+    min-height: 500px;
     text-align: center;
     margin: 1rem auto 2rem auto ;
-    background: var(--white);
-    /* background: var(--yellow); */
+    /* background: var(--white);
+    background: var(--yellow); */
     border: 1px solid var(--yellow);
     border-radius: 10px;
 }
-.choose-card img{
-    margin-top: 1rem;
-    width: 80%;
-    height: 80%;
+.choose-card .choose-img img{
+    margin-top: .4rem;
+    width: 60%;
+    height: 100%;
 }
+.choose-img{
+    height: 50%;
+}
+.choose-card .choose-name{
+    font-family: "AlegreyaSC";
+    font-size: 16pt;
+    margin: .5rem 0 0 0;
+    color: var(--brown);
+    height: 10%;
+}
+.choose-card .description p{
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+}
+.description{
+    height: 18%;
+}
+.choose-card .choose-price {
+    font-family: "AlegreyaSC", "Open sans", sans-serif;
+    font-size: 14pt;
+    color: var(--brown);
+    height: 5%;
+    padding: .5rem 0;
+}
+.choose-btn{
+    width: 100%;
+}
+
 @media screen and (max-width: 700px) {
     .menu{
         width: 100%;
@@ -33,5 +61,19 @@
     }
     .choose-card{
         width: 90%;
+        height: 0;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1024px){
+    .choose{
+        width: 100%;
+    }
+    .choose-card{
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px){
+    .choose{
+        width: 100%;
     }
 }

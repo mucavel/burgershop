@@ -47,6 +47,7 @@ p,a{
 .buy-btn{
   border: none;
   background: var(--red);
+  border-radius: 5px;
 }
 .buy-btn a{
   padding: 1rem 4rem;
@@ -59,11 +60,7 @@ p,a{
 .buy-btn a:hover{
   background: var(--hover-red);
 }
-.choose-btn{
-  width: 100%;
-  position: absolute;
-  bottom: 10px;
-}
+
 @media screen and (max-width: 700px){
   .h2-subtitle{
     font-size: 16pt;

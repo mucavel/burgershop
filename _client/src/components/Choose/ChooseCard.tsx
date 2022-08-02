@@ -17,7 +17,7 @@ const ChooseCard = ({img, name, description, price}:ChooseOpts): JSX.Element => 
             <p>{description}</p>
         </div>
         <div className="choose-price">
-            <span>{price}</span>
+            <span><b>{"Preço : "  + price}</b></span>
         </div>
         <div className="choose-btn">
             <button className="buy-btn choose-buy-btn">
