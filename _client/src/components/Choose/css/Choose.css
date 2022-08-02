@@ -1,6 +1,6 @@
-/* .menu{
+.menu{
     background: var(--yellow);
-} */
+}
 .choose{
     width: 80%;
     margin: auto;
@@ -12,9 +12,9 @@
     min-height: 500px;
     text-align: center;
     margin: 1rem auto 2rem auto ;
-    /* background: var(--white);
-    background: var(--yellow); */
-    border: 1px solid var(--yellow);
+    background: var(--white);
+    /* background: var(--yellow); */
+    /* border: 1px solid var(--yellow); */
     border-radius: 10px;
 }
 .choose-card .choose-img img{
