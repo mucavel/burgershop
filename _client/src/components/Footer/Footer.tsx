@@ -24,6 +24,7 @@ const Footer = () => {
                         <p>llllllllllllllllllll</p>
                         <p>llllllllllllllllllll</p>
                         <p>llllllllllllllllllll</p>
+                        <p>llllllllllllllllllll</p>
                     </span>
                     </div>
                     <div className="map">
