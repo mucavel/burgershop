@@ -50,6 +50,6 @@
 }
 @media screen and (min-width: 701px) and (max-width: 1366px){
     .popular{
-        width: 100%;
+        width: 90%;
     }
 }

@@ -1,0 +1,108 @@
+#form,
+.form{
+    display: flex;
+    min-height: 40vh;
+}
+.form{
+    flex-direction: column;
+    width: 50%;
+}
+.form-container{
+    width: 80%;
+    margin: auto;
+}
+.form input,
+.form select,
+.form textarea{
+    width: 60%;
+    height: 50px;
+    border: 1px solid var(--brown);
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    padding: 0 1rem;
+    outline: none;
+}
+.form input{
+    margin-right: .5rem;  
+}
+.form select,
+.form textarea,
+.form button{
+    margin-left: .5rem;
+}
+.form textarea{
+    width: 55%;
+    height: auto;
+    padding: 1rem;
+    resize: unset;
+}
+.personal-info{
+    align-items: end;
+}
+.choice button{
+    width: 60%;
+    height: 50px;
+    color: var(--white);
+    font-size: 11pt;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width: 700px){
+    #form{
+        flex-direction: column;
+    }
+    .form{
+        width: 100%;
+        min-height: 0;
+        align-items: center;
+    }
+    .form-container{
+        width: 100%;
+    }
+    .form input{
+        width: 90%;
+        margin: 0 0 1rem 0;
+        padding: 0 .5rem 0 1rem;
+    }
+    .form textarea{
+        width: 90%;
+        padding: 1rem .5rem;
+        margin: 0 auto 1rem auto;
+    }
+    .form select{
+        width: 96%;
+        margin: 0 0 1rem 0;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1024px){
+    .form{
+        align-items: center;
+    }
+    .form-container{
+        width: 90%;
+    }
+    .form input{
+        width: 90%;
+        margin: 0 0 1rem 0;
+        padding: 0 .5rem 0 1rem;
+    }
+    .form textarea{
+        width: 90%;
+        padding: 1rem .5rem;
+        margin: 0 auto 1rem auto;
+    }
+    .form select{
+        width: 96%;
+        margin: 0 0 1rem 0;
+        padding: 0;
+    }
+    .choice button{
+        width: 95%;
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1366px){
+    .form-container{
+        width: 100%;
+    }
+}

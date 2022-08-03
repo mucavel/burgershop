@@ -1,0 +1,44 @@
+.footer{
+    background-image: url(../../../assets/images/footer.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fade{
+    background-color: var(--fade);
+}
+.footer-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+}
+.contact,
+.map{
+    width: 50%;
+    height: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.developer{
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+}
+@media screen and (max-width: 700px){
+    .footer-container{
+        width: 100%;
+        flex-direction: column;
+        min-height: auto;
+        margin-bottom: 2rem;
+    }
+    .contact,
+    .map{
+        width: 100%;
+        height: 40vh;
+    }
+    .contact{
+        text-align: center;
+    }
+}

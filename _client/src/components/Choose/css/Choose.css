@@ -13,10 +13,12 @@
     text-align: center;
     margin: 1rem auto 2rem auto ;
     background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 2px 29px -3px var(--fade);
     /* background: var(--yellow); */
     /* border: 1px solid var(--yellow); */
-    border-radius: 10px;
 }
+
 .choose-card .choose-img img{
     margin-top: .4rem;
     width: 60%;
@@ -74,6 +76,6 @@
 }
 @media screen and (min-width: 1025px) and (max-width: 1366px){
     .choose{
-        width: 100%;
+        width: 90%;
     }
 }
