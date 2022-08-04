@@ -9,11 +9,10 @@ const Home = (): JSX.Element => {
         <div className="home">
             <div className='home-text'>
                 <div className='home-text-container'>
-                    <h1 className='home-h1' style={{color: "var(--brown)"}}>The Burger Shop</h1>
+                    <h1 className='home-h1' style={{color: "var(--brown)"}}>The Corner Take Away</h1>
                     <h2 className='home-h2'>O melhor Humbúrger tu encontras aqui!</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        labore obcaecati suscipit dolorum quis minima omnis libero quo aperiam esse.
+                        O The Corner Take Away é um restaurante de comida rápida e deliciosa. Pronto para deixar ficar seu nome no mercado nacional.
                     </p>
                     <button className='buy-btn'>
                         <a href="#menu">Comprar</a>

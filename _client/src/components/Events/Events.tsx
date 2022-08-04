@@ -10,15 +10,14 @@ const Events = () => {
             <div className="events-text">
                 <div className="item-in-promotion">
                     <h3>Promoção</h3>
-                    <h3>Hambúrguer Extra Fat & Batatas</h3>
-                    <h4>Duração: 02-08-2022 até 02-09-2022</h4>
+                    <h3>Hambúrguer Duplo</h3>
+                    <h4>Duração: Todas Sextas-feiras</h4>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet quo corporis, adipisci possimus enim asperiores, 
-                        expedita accusantium.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Eveniet quo corporis, adipisci possimus enim asperiores, 
-                        expedita accusantium.
+                    Imagina em uma única mordida sentir o maior prazer da sua vida…
+                     Aqui é possível! Nossos hambúrgueres são uma explosão de sabor e maravilha a cada pedaço.
+                    O nosso hambúrguer é tão bom que eu acho injusto você não provar. Para te ajudar o 
+                    dono enlouquece: Só nas sextas você compra um normal e leva um DUPLO! Mas corra, 
+                    porque é só das 17h-20h, viu? Se um era bom, imagina dois!
                     </p>
                     <div className="events-btn">
                         <button className='buy-btn'>Comprar</button>

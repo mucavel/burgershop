@@ -129,8 +129,6 @@
   .nav-toggle.open > .bar::after {
     transform: rotate(-45deg) translate(26px, 26px);
   }
-
-
 }
 @media screen and (min-width: 701px) and (max-width: 1024px){
   .Navbar {

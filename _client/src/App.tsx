@@ -1,4 +1,3 @@
-import './App.css';
 import Book from './components/Book/Book';
 import Choose from './components/Choose/Choose';
 import Events from './components/Events/Events';

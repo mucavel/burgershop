@@ -7,7 +7,7 @@ const Navbar = (): JSX.Element => {
 
   return (
     <nav className="Navbar">
-      <span className="nav-logo"><FaHamburger className="burger-ico"/>Burger Shop</span>
+      <span className="nav-logo"><FaHamburger className="burger-ico"/>The Corner</span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="#home">Home</a>
         <a href="#menu">Menu</a>
