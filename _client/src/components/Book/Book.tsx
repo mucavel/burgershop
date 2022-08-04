@@ -6,11 +6,11 @@ const Book = () => {
     <section id="book">
         <SubTitle subtitle='Faça sua Encomenda'/>
         <div className="form-container">
-            <form id="form" action="">
+            <form id="form" action="https://formsubmit.co/47e82810e0ba444668143cbcdc232385" method='POST'>
                 <div className="form personal-info">
                     <input type="text" placeholder='Seu Nome' required name='name' autoComplete='off'maxLength={30}/>
                     <input type="tel" placeholder="Seu Telefone (+258)" required name='tel' autoComplete='off' maxLength={9}/>
-                    <input type="text" placeholder='Seu Endereço' required name='adress' autoComplete='off' maxLength={100}/>
+                    <input type="text" placeholder='Seu Endereço' required name='address' autoComplete='off' maxLength={100}/>
                 </div>
                 <div className="form choice">
                     <select name="choice" required>
@@ -23,6 +23,7 @@ const Book = () => {
                         <option value="batata_tomate_mayonaise">Batata, Tomate e Mayonaise</option>
                     </select>
                     <textarea cols={30} rows={8} placeholder="Observações" name="observations" autoComplete='off' maxLength={400}></textarea>
+                    <input type="hidden" name="_next" value="https://burgershop.vercel.app/"></input>
                     <button className='buy-btn'>Encomendar</button>
                 </div>
             </form>

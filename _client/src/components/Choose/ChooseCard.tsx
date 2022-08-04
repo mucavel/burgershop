@@ -1,11 +1,12 @@
 interface ChooseOpts{
+    // id: number;
     img: string;
     name: string;
     description: string;
     price: string;
 }
 const ChooseCard = ({img, name, description, price}:ChooseOpts): JSX.Element => {
-  return (
+    return (
     <div className="choose-card">
         <div className="choose-img">
             <img src={img} alt="Hambúrguer" />

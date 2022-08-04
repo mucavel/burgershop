@@ -56,10 +56,9 @@ const Footer = () => {
             <p>
                 Desenvolvido em <span style={typescriptIcon}><SiTypescript/> </span> e 
                 <span style={reactIcon}> <FaReact/></span> com muito  
-                <span style={{color: "red"}}> <BsHeartFill/></span> por 
+                <span style={{color: "red"}}> <BsHeartFill/></span> por : 
                 <span className='developer-name'> <a href="https://salvadormucavel.vercel.app" target="_blank" rel="noreferrer"><b>Salvador Carlos Mucavele</b></a></span>
             </p>
-            div.
         </div>
     </section>
   )

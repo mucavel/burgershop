@@ -13,6 +13,7 @@ const Choose = () => {
                     return(
                         <ChooseCard 
                             key={item.id} 
+                            // id={item.id}
                             img={item.img}
                             name={item.name}
                             description={item.description}
