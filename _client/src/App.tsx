@@ -7,8 +7,9 @@ import Home from './components/Home/Home';
 import Popular from './components/Popular/Popular';
 
 function App() {
-  const [ChoiceID, setChoiceID] = useState<number | undefined>()
-
+  const [ChoiceID, setChoiceID] = useState<string | undefined>()
+  const [promoBurger, setPromoBurger] = useState<string | undefined>()
+  // console.log(promoBurger)
   // const setChoiceID = (choiceID:number) => {
   //   const  ChoiceID = choiceID
   //   }
@@ -18,8 +19,8 @@ function App() {
       <Home/>
       <Popular/>
       <Choose setChoiceID={setChoiceID}/>
-      <Events/>
-      <Book choiceID={ChoiceID}/>
+      <Events setPromoBurger={setPromoBurger}/>
+      <Book choiceID={ChoiceID} promoBurger={promoBurger}/>
       <Footer/>
     </div>
   );

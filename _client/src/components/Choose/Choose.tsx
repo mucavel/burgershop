@@ -5,7 +5,7 @@ import { Menu } from './Menu';
 // import { useState } from 'react';
 
 interface IDTYPE{
-    setChoiceID(e:number):void
+    setChoiceID(e:string):void
 }
 
 const Choose = ({setChoiceID}:IDTYPE) => {
@@ -25,7 +25,7 @@ const Choose = ({setChoiceID}:IDTYPE) => {
                     return(
                         <ChooseCard 
                             key={item.id} 
-                            id={item.id}
+                            // id={item.id}
                             img={item.img}
                             name={item.name}
                             description={item.description}

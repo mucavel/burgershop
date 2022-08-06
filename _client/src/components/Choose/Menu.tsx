@@ -44,8 +44,8 @@ export const Menu = [
     {
         id: 6,
         img : batata_completa,
-        name: 'Batata, Tomate e sei la',
-        description: 'Batatas Fritas acompanhadas duma porção de Tomate Souce e sei la',
+        name: 'Batata, Tomate e Mayonaise',
+        description: 'Batatas Fritas acompanhadas duma porção de Tomate Souce e Mayonaise',
         price: '90 MT'
     }
     
