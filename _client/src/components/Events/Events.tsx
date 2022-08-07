@@ -2,16 +2,7 @@ import SubTitle from '../SubTitle/SubTitle';
 import './css/Events.css';
 const events = require('../../assets/images/events.webp');
 
-interface PROMO{
-    setPromoBurger(name:string):void
-}
-
-const Events = ({setPromoBurger}:PROMO) => {
-
-// const promoburger = () => {
-
-// }
-
+const Events = () => {
   return (
     <section id="events">
         <SubTitle subtitle='Promoções & Eventos'/>
@@ -29,7 +20,7 @@ const Events = ({setPromoBurger}:PROMO) => {
                     porque é só das 17h-20h, viu? Se um era bom, imagina dois!
                     </p>
                     <div className="events-btn">
-                        <button className='buy-btn' onClick={() => setPromoBurger('Hambúrguer Duplo - Promoção')}>Comprar</button>
+                        <button className='buy-btn'>Comprar</button>
                     </div>
                 </div>
             </div>

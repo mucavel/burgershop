@@ -1,12 +1,12 @@
 interface ChooseOpts{
-    // id: number;
+    id:number;
     img: string;
     name: string;
     description: string;
     price: string;
-    setSelectedID(choiceID:string):void
+    setSelectedBurger(burgerID:number):void
 }
-const ChooseCard = ({ img, name, description, price, setSelectedID}:ChooseOpts): JSX.Element => {
+const ChooseCard = ({id, img, name, description, price, setSelectedBurger}:ChooseOpts): JSX.Element => {
     return (
     <div className="choose-card">
         <div className="choose-img">
@@ -23,7 +23,7 @@ const ChooseCard = ({ img, name, description, price, setSelectedID}:ChooseOpts):
         </div>
         <div className="choose-btn">
             <button className="buy-btn choose-buy-btn">
-                <a href="#book" onClick={() =>setSelectedID(name)}>Comprar</a>
+                <a href="#book" onClick={() =>setSelectedBurger(id)}>Comprar</a>
             </button>
         </div>
     </div>
