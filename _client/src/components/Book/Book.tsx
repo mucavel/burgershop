@@ -131,9 +131,9 @@ const Book = ({burgerID}:ChoiceIDType) => {
                 {/* <form id="form" action="https://formsubmit.co/47e82810e0ba444668143cbcdc232385" method='POST'> */}
 
                     <div className="form personal-info">
-                        <input type="text" ref={nameInput} placeholder='Seu Nome' required name='name' autoComplete='off' maxLength={30}/>
-                        <input type="tel" ref={telInput} placeholder="Seu Telefone (+258)" required name='tel' autoComplete='off' maxLength={9}/>
-                        <input type="text" ref={addressInput} placeholder='Seu Endereço' required name='address' autoComplete='off' maxLength={100}/>
+                        <input type="text" ref={nameInput} placeholder='* Seu Nome' required name='name' autoComplete='off' maxLength={30}/>
+                        <input type="tel" ref={telInput} placeholder="* Seu Telefone (+258)" required name='tel' autoComplete='off' maxLength={9}/>
+                        <input type="text" ref={addressInput} placeholder='* Seu Endereço' required name='address' autoComplete='off' maxLength={100}/>
                     </div>
                     <div className="form choice">
                         <select name="choice" required ref={selectRef}>
