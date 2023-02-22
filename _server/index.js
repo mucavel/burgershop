@@ -11,9 +11,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(cors());
 
 const PORT = process.env.PORT || 3001;
-app.listen(PORT,() => {
-    console.log(PORT)
-})
+app.listen(PORT,() => {})
 
 const db = mysql.createPool({
     host: "127.0.0.1",
